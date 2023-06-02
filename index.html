@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToSumUp - Summarizer</title>
+</head>
+<body>
+    <h1>ToSumUp - Summarizer</h1>
+    <form method="POST" action="/">
+        <label for="input_text">Enter Text to Summarize:</label>
+        <textarea name="input_text" id="input_text" rows="5" cols="50">{{ input_text }}</textarea>
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+    <br>
+    {% if output_text %}
+        <h3>Summary:</h3>
+        <p>{{ output_text }}</p>
+    {% endif %}
+</body>
+</html>
 
