@@ -21,7 +21,9 @@
 ### Install Dependencies:
 ```bash
 pip install flask gradio transformers
-
+```
 
 ### Run the Application:
+```bash
 python app.py
+```
