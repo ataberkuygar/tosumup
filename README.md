@@ -22,8 +22,6 @@
 ```bash
 pip install flask gradio transformers
 
-## Usage
 
-### 1. Run the Application:
-```bash
+### Run the Application:
 python app.py
